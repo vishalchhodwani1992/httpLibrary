@@ -36,7 +36,7 @@ HashMap<String, String> headerParameters = new HashMap<>();
         fileParameters.put("fileKey", new File(filePath));
    ```
  
- - Final Calling
+  - Final Calling
  
 ```
 new HttpRequestResponse(MainActivity.this)
