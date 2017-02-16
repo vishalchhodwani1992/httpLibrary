@@ -30,13 +30,13 @@ HashMap<String, String> headerParameters = new HashMap<>();
 ```
  
    - Add File Parameters (Images,  docs, text ..etc.)
-   ```
+```
    String filePath = Environment.getExternalStorageDirectory()+"/DCIM/test_image.jpg";
         HashMap<String, File> fileParameters = new HashMap<>();
         fileParameters.put("fileKey", new File(filePath));
-   ```
+```
  
-  - Final Calling
+   - Final Calling
  
 ```
 new HttpRequestResponse(MainActivity.this)
